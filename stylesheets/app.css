@@ -82,8 +82,9 @@ body {
   margin: 10px 0;
   font-size: 13px;
   line-height: 160%;
+  text-align: justify;
 }
-/* line 95, ../sass/app.scss */
+/* line 96, ../sass/app.scss */
 .mainwrapper .container a[name] {
   font-size: 26px;
   font-weight: bold;
@@ -92,31 +93,31 @@ body {
   border-bottom: 1px solid #424242;
   margin-bottom: 5px;
 }
-/* line 108, ../sass/app.scss */
+/* line 109, ../sass/app.scss */
 .mainwrapper .container .left-block {
   float: left;
   width: 49%;
 }
-/* line 113, ../sass/app.scss */
+/* line 114, ../sass/app.scss */
 .mainwrapper .container .left-block p {
   margin: 15px 0;
 }
-/* line 116, ../sass/app.scss */
+/* line 117, ../sass/app.scss */
 .mainwrapper .container .left-block p span {
   font-weight: bold;
 }
-/* line 123, ../sass/app.scss */
+/* line 124, ../sass/app.scss */
 .mainwrapper .container .right-block {
   float: right;
   width: 49%;
 }
-/* line 129, ../sass/app.scss */
+/* line 130, ../sass/app.scss */
 .mainwrapper .container img {
   float: left;
   margin: 0 10px 10px 0;
 }
 
-/* line 136, ../sass/app.scss */
+/* line 137, ../sass/app.scss */
 #footer {
   background: #3299bb;
   color: #f0f7f4;
@@ -125,72 +126,72 @@ body {
   margin-top: 20px;
   text-align: center;
 }
-/* line 144, ../sass/app.scss */
+/* line 145, ../sass/app.scss */
 #footer .menu {
   padding: 30px 0 0 5px;
 }
-/* line 147, ../sass/app.scss */
+/* line 148, ../sass/app.scss */
 #footer .menu ul li {
   display: inline;
 }
-/* line 150, ../sass/app.scss */
+/* line 151, ../sass/app.scss */
 #footer .menu ul li a {
   color: #f0f7f4;
   text-decoration: none;
   font-size: 13px;
   padding-left: 10px;
 }
-/* line 156, ../sass/app.scss */
+/* line 157, ../sass/app.scss */
 #footer .menu ul li a:hover {
   text-decoration: underline;
 }
-/* line 164, ../sass/app.scss */
+/* line 165, ../sass/app.scss */
 #footer .copyrights {
   font-size: 11px;
   margin-top: 5px;
 }
 
-/* line 170, ../sass/app.scss */
+/* line 171, ../sass/app.scss */
 .clear {
   clear: both;
 }
 
-/* line 174, ../sass/app.scss */
+/* line 175, ../sass/app.scss */
 .contact-form {
   margin: 20px 0;
 }
-/* line 177, ../sass/app.scss */
+/* line 178, ../sass/app.scss */
 .contact-form label, .contact-form input {
   display: block;
   width: 350px;
 }
-/* line 182, ../sass/app.scss */
+/* line 183, ../sass/app.scss */
 .contact-form label {
   font-weight: bold;
 }
-/* line 186, ../sass/app.scss */
+/* line 187, ../sass/app.scss */
 .contact-form input {
   margin-bottom: 10px;
   border: 1px solid #c6c6c6;
   height: 26px;
   padding-left: 10px;
 }
-/* line 194, ../sass/app.scss */
+/* line 195, ../sass/app.scss */
 .contact-form input[type=submit] {
   width: 150px;
   display: inline;
   float: left;
   padding: 0;
 }
-/* line 201, ../sass/app.scss */
+/* line 202, ../sass/app.scss */
 .contact-form #cancel {
   float: right;
 }
-/* line 205, ../sass/app.scss */
+/* line 206, ../sass/app.scss */
 .contact-form .letsalignit {
   width: 362px;
 }
-/* line 210, ../sass/app.scss */
+/* line 211, ../sass/app.scss */
 .contact-form textarea {
   resize: none;
   width: 350px;
@@ -198,32 +199,32 @@ body {
   padding: 10px 0 0 10px;
 }
 
-/* line 222, ../sass/app.scss */
+/* line 223, ../sass/app.scss */
 .grid {
   display: inline;
   margin: auto;
 }
-/* line 228, ../sass/app.scss */
+/* line 229, ../sass/app.scss */
 .grid .cell {
   width: 33%;
   display: inline;
   float: left;
   margin-right: 5px;
 }
-/* line 234, ../sass/app.scss */
+/* line 235, ../sass/app.scss */
 .grid .cell:last-of-type {
   margin-right: 0;
 }
-/* line 238, ../sass/app.scss */
+/* line 239, ../sass/app.scss */
 .grid .cell img {
   float: none;
 }
-/* line 242, ../sass/app.scss */
+/* line 243, ../sass/app.scss */
 .grid .cell p {
   padding: 0 10px;
 }
 
-/* line 248, ../sass/app.scss */
+/* line 249, ../sass/app.scss */
 .divbutton {
   border: 1px solid #c6c6c6;
   width: 150px;
@@ -234,26 +235,26 @@ body {
   float: left;
 }
 
-/* line 258, ../sass/app.scss */
+/* line 259, ../sass/app.scss */
 #gotop {
   position: fixed;
   display: block;
   bottom: 50px;
   right: 15px;
 }
-/* line 264, ../sass/app.scss */
+/* line 265, ../sass/app.scss */
 #gotop img {
   width: 32px;
 }
 
-/* line 275, ../sass/app.scss */
+/* line 276, ../sass/app.scss */
 .info {
   width: 350px;
   padding: 5px 0 5px 10px;
   display: none;
 }
 
-/* line 282, ../sass/app.scss */
+/* line 283, ../sass/app.scss */
 .success {
   border: 1px solid green;
   display: block;
@@ -261,7 +262,7 @@ body {
   color: #3C763D;
 }
 
-/* line 289, ../sass/app.scss */
+/* line 290, ../sass/app.scss */
 .fail {
   border: 1px solid red;
   display: block;

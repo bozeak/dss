@@ -72,8 +72,8 @@ $(document).ready(function() {
 			var data = $('#contact-us :input').serializeArray();
 
 			$.post($('#contact-us').attr('action'), data, function(worker) {
-				$('.info').html(worker);
-			});
+			$('.info').html(worker);
+		});
 
 			clearInput();
 		});

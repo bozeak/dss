@@ -19,6 +19,7 @@
 	
 	<div class="mainwrapper" id="content-body">
 		<?php include('_includes/about.html'); ?>
+		<div class="clear"></div>
 		<?php include('_includes/services.html'); ?>
 		<div class="clear"></div>
 		<?php include('_includes/contact.html'); ?>
