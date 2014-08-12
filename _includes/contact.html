@@ -1,0 +1,46 @@
+<div class="container" id="contacts">
+	<a name="contacts">Contacts</a>
+	
+	<div class="left-block">
+			<div class="contact-data">
+				<p><span>Address:</span> Ismail str., 58</p>
+				<p><span>Email:</span> <a href="mailto:address@example.com">address@example.com</a></p>
+				<p><span>Tel:</span> +373 00-00-00</p>
+				<p><span>Fax:</span> +373 00-00-00</p>
+			</div>
+		
+		<div class="divbutton" id="show-form">Send us a message</div>
+		<div class="info"></div>
+
+		<div class="contact-form">
+
+			<form action="worker.php" method="post" id="contact-us">
+				<label for="email">Email:*</label>
+				<input type="email" id="email" name="email" placeholder="email" size="40" value="" >
+
+				<label for="name">Name:*</label>
+				<input type="name" id="name" name="name" placeholder="name" size="40" value="" >
+
+				<label for="subject">Subject:*</label>
+				<input type="text" id="subject" name="subject" placeholder="subject" size="40" value="" >
+				
+				<label for="message">Message:*</label>
+				<textarea name="message" id="message" cols="40" rows="10" placeholder="message" ></textarea>
+				
+
+				<div class="letsalignit">
+					<div id="submit" class="divbutton">Send us a message</div>
+					<div id="cancel" class="divbutton">Cancel</div>
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+	<div class="right-block">	
+		<!-- <img src="img/map.png" alt="we on map" width="100%"> -->
+			<iframe src="https://mapsengine.google.com/map/embed?mid=zfUDGJROVn4Y.khSFVyUu0lHc" width="490" height="300"></iframe>
+	</div>
+
+	
+</div>
