@@ -1,0 +1,295 @@
+$font-stack: Verdana, sans-serif;
+$primary-color: #333;
+$header-bg: #3299BB;
+$header-font-color: #F0F7F4;
+
+//@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 100% $font-stack;
+	color: $primary-color;
+}
+
+#header {
+	width: 100%;
+	background: $header-bg;
+	height: 80px;
+	color: $header-font-color;
+
+
+	.logo {
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+		font-size: 36px;
+		width: 100px;
+		padding: 14px 0;
+		float: left;
+
+		a {
+			text-decoration: none;
+			color: $header-font-color;
+		}
+	}
+	
+	//position: fixed;
+	//top: 0;
+
+	.menu {
+		float: right;
+		margin: 30px 0;
+
+		ul li {
+			display: inline;
+			padding-right: 30px;
+			cursor: pointer;
+
+			a {
+				color: $header-font-color;
+				text-decoration: none;
+				font-weight: bold;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	.menu-moved {
+		position: fixed;
+		right: 0px;
+		background: $header-bg;
+
+		 ul li {
+		 	display: block;
+		 	padding: 10px;
+		 	border-bottom: 1px solid #c6c6c6;
+
+		 	&:hover {
+		 		background: #3299AA;
+		 	}
+		 }
+		
+		a {
+			color: black;
+		}
+	}
+}
+
+.mainwrapper {
+	margin: auto;
+	width: 80%;
+
+
+	.container {
+
+		margin: 10px 0;
+		font-size: 13px;
+		line-height: 160%;
+		text-align: justify;
+
+
+		a[name] {
+			font-size: 26px;
+			font-weight: bold;
+			display: block;
+			padding: 10px 0 5px 0;
+			border-bottom: 1px solid #424242;
+			margin-bottom: 5px;
+		}
+
+		&:first-child {
+			//padding-top: 110px;
+		}
+
+		.left-block {
+			float:left;
+			width: 49%;
+			//border: 1px solid black;
+			
+			p {
+				margin: 15px 0;
+
+				span {
+				font-weight: bold;
+			}
+			}
+			
+		}
+
+		.right-block {
+			float:right;
+			width: 49%;
+			//border: 1px solid black;
+		}
+
+		img {
+			float: left;
+			margin: 0 10px 10px 0;
+		}
+	}
+}
+
+#footer {
+	background: $header-bg;
+	color: $header-font-color;
+	height: 100px;
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+
+	.menu {
+		padding: 30px 0 0 5px;
+
+	ul li {
+		display: inline;
+
+		a {
+				color: $header-font-color;
+				text-decoration: none;
+				font-size: 13px;
+				padding-left: 10px;
+				
+				&:hover {
+					text-decoration: underline;
+				}
+			
+			}
+		}
+	}
+
+	.copyrights {
+		font-size: 11px;
+		margin-top: 5px;
+	}
+}
+
+.clear {
+	clear: both;
+}
+
+.contact-form {
+	margin: 20px 0;
+
+	label, input {
+		display: block;
+		width: 350px;
+	}
+
+	label {
+		font-weight: bold;
+	}
+
+	input {
+		margin-bottom: 10px;
+		border: 1px solid #c6c6c6;
+		height: 26px;
+		padding-left: 10px;
+
+	}
+
+	input[type=submit] {
+		width: 150px;
+		display: inline;
+		float: left;
+		padding: 0;
+	}
+
+	#cancel {
+		float: right;
+	}
+
+	.letsalignit {
+		width: 362px;
+	}
+
+
+	textarea {
+		resize: none;
+		width: 350px;
+		border: 1px solid #c6c6c6;
+		padding: 10px 0 0 10px;
+	
+
+	}
+
+	
+}
+
+.grid {
+	display: inline;
+	margin: auto;
+
+
+
+	.cell {
+		width: 33%;
+		display: inline;
+		float: left;
+		margin-right: 5px;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+
+		img {
+			float: none;
+		}
+
+		p {
+			padding: 0 10px;
+		}
+	}
+}
+
+.divbutton {
+	border: 1px solid #c6c6c6;
+	width: 150px;
+	text-align: center;
+	padding:  2px 5px;
+	cursor: pointer;
+	background: #f7f6f6;
+	float: left;
+}
+
+#gotop {
+	position: fixed;
+	display: block;
+	bottom: 50px;
+	right: 15px;
+
+	img {
+		width: 32px;
+		// opacity: 0.1;
+
+		// &:hover {
+		// 	opacity: 1.0;
+		// }
+
+	}
+}
+
+.info {
+	width: 350px;
+	padding: 5px 0 5px 10px;
+	display: none;
+}
+
+
+.success {
+	border: 1px solid green;
+	display: block;
+	background: #DFF0D8;
+	color: #3C763D;
+}
+
+.fail {
+	border: 1px solid red;
+	display: block;
+	background: #F2DEDE;
+	color: #BB4A58;
+}
