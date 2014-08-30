@@ -3,7 +3,7 @@
 
 $server = "localhost";
 $user = "root";
-$password = "root";
+$password = "";
 $db = "feedback";
 
 $mysqli = new mysqli($server, $user, $password, $db);
@@ -19,7 +19,6 @@ $email = mysqli_real_escape_string($mysqli, $_POST['email']);
 $name = mysqli_real_escape_string($mysqli, $_POST['name']);
 $subject = mysqli_real_escape_string($mysqli, $_POST['subject']);
 $message = mysqli_real_escape_string($mysqli, $_POST['message']);
-$date = date('r');
 $ip=$_SERVER['REMOTE_ADDR'];
 
 $required = array('email', 'name', 'subject', 'message');
