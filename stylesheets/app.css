@@ -8,16 +8,17 @@
 body {
   font: 100% Verdana, sans-serif;
   color: #333333;
+  texta-align: justify;
 }
 
-/* line 18, ../sass/app.scss */
+/* line 19, ../sass/app.scss */
 #header {
   width: 100%;
   background: #3299bb;
   height: 80px;
   color: #f0f7f4;
 }
-/* line 25, ../sass/app.scss */
+/* line 26, ../sass/app.scss */
 #header .logo {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 36px;
@@ -25,66 +26,66 @@ body {
   padding: 14px 0;
   float: left;
 }
-/* line 32, ../sass/app.scss */
+/* line 33, ../sass/app.scss */
 #header .logo a {
   text-decoration: none;
   color: #f0f7f4;
 }
-/* line 41, ../sass/app.scss */
+/* line 42, ../sass/app.scss */
 #header .menu {
   float: right;
   margin: 30px 0;
 }
-/* line 45, ../sass/app.scss */
+/* line 46, ../sass/app.scss */
 #header .menu ul li {
   display: inline;
   padding-right: 30px;
   cursor: pointer;
 }
-/* line 50, ../sass/app.scss */
+/* line 51, ../sass/app.scss */
 #header .menu ul li a {
   color: #f0f7f4;
   text-decoration: none;
   font-weight: bold;
 }
-/* line 55, ../sass/app.scss */
+/* line 56, ../sass/app.scss */
 #header .menu ul li a:hover {
   text-decoration: underline;
 }
-/* line 62, ../sass/app.scss */
+/* line 63, ../sass/app.scss */
 #header .menu-moved {
   position: fixed;
   right: 0px;
   background: #3299bb;
 }
-/* line 67, ../sass/app.scss */
+/* line 68, ../sass/app.scss */
 #header .menu-moved ul li {
   display: block;
   padding: 10px;
   border-bottom: 1px solid #c6c6c6;
 }
-/* line 72, ../sass/app.scss */
+/* line 73, ../sass/app.scss */
 #header .menu-moved ul li:hover {
   background: #3299AA;
 }
-/* line 77, ../sass/app.scss */
+/* line 78, ../sass/app.scss */
 #header .menu-moved a {
   color: black;
 }
 
-/* line 83, ../sass/app.scss */
+/* line 84, ../sass/app.scss */
 .mainwrapper {
   margin: auto;
   width: 80%;
 }
-/* line 88, ../sass/app.scss */
+/* line 89, ../sass/app.scss */
 .mainwrapper .container {
   margin: 10px 0;
   font-size: 13px;
   line-height: 160%;
   text-align: justify;
 }
-/* line 96, ../sass/app.scss */
+/* line 97, ../sass/app.scss */
 .mainwrapper .container a[name] {
   font-size: 26px;
   font-weight: bold;
@@ -93,31 +94,31 @@ body {
   border-bottom: 1px solid #424242;
   margin-bottom: 5px;
 }
-/* line 109, ../sass/app.scss */
+/* line 110, ../sass/app.scss */
 .mainwrapper .container .left-block {
   float: left;
   width: 49%;
 }
-/* line 114, ../sass/app.scss */
+/* line 115, ../sass/app.scss */
 .mainwrapper .container .left-block p {
   margin: 15px 0;
 }
-/* line 117, ../sass/app.scss */
+/* line 118, ../sass/app.scss */
 .mainwrapper .container .left-block p span {
   font-weight: bold;
 }
-/* line 124, ../sass/app.scss */
+/* line 125, ../sass/app.scss */
 .mainwrapper .container .right-block {
   float: right;
   width: 49%;
 }
-/* line 130, ../sass/app.scss */
+/* line 131, ../sass/app.scss */
 .mainwrapper .container img {
   float: left;
   margin: 0 10px 10px 0;
 }
 
-/* line 137, ../sass/app.scss */
+/* line 138, ../sass/app.scss */
 #footer {
   background: #3299bb;
   color: #f0f7f4;
@@ -126,72 +127,72 @@ body {
   margin-top: 20px;
   text-align: center;
 }
-/* line 145, ../sass/app.scss */
+/* line 146, ../sass/app.scss */
 #footer .menu {
   padding: 30px 0 0 5px;
 }
-/* line 148, ../sass/app.scss */
+/* line 149, ../sass/app.scss */
 #footer .menu ul li {
   display: inline;
 }
-/* line 151, ../sass/app.scss */
+/* line 152, ../sass/app.scss */
 #footer .menu ul li a {
   color: #f0f7f4;
   text-decoration: none;
   font-size: 13px;
   padding-left: 10px;
 }
-/* line 157, ../sass/app.scss */
+/* line 158, ../sass/app.scss */
 #footer .menu ul li a:hover {
   text-decoration: underline;
 }
-/* line 165, ../sass/app.scss */
+/* line 166, ../sass/app.scss */
 #footer .copyrights {
   font-size: 11px;
   margin-top: 5px;
 }
 
-/* line 171, ../sass/app.scss */
+/* line 172, ../sass/app.scss */
 .clear {
   clear: both;
 }
 
-/* line 175, ../sass/app.scss */
+/* line 176, ../sass/app.scss */
 .contact-form {
   margin: 20px 0;
 }
-/* line 178, ../sass/app.scss */
+/* line 179, ../sass/app.scss */
 .contact-form label, .contact-form input {
   display: block;
   width: 350px;
 }
-/* line 183, ../sass/app.scss */
+/* line 184, ../sass/app.scss */
 .contact-form label {
   font-weight: bold;
 }
-/* line 187, ../sass/app.scss */
+/* line 188, ../sass/app.scss */
 .contact-form input {
   margin-bottom: 10px;
   border: 1px solid #c6c6c6;
   height: 26px;
   padding-left: 10px;
 }
-/* line 195, ../sass/app.scss */
+/* line 196, ../sass/app.scss */
 .contact-form input[type=submit] {
   width: 150px;
   display: inline;
   float: left;
   padding: 0;
 }
-/* line 202, ../sass/app.scss */
+/* line 203, ../sass/app.scss */
 .contact-form #cancel {
   float: right;
 }
-/* line 206, ../sass/app.scss */
+/* line 207, ../sass/app.scss */
 .contact-form .letsalignit {
   width: 362px;
 }
-/* line 211, ../sass/app.scss */
+/* line 212, ../sass/app.scss */
 .contact-form textarea {
   resize: none;
   width: 350px;
@@ -199,32 +200,32 @@ body {
   padding: 10px 0 0 10px;
 }
 
-/* line 223, ../sass/app.scss */
+/* line 224, ../sass/app.scss */
 .grid {
   display: inline;
   margin: auto;
 }
-/* line 229, ../sass/app.scss */
+/* line 230, ../sass/app.scss */
 .grid .cell {
   width: 33%;
   display: inline;
   float: left;
   margin-right: 5px;
 }
-/* line 235, ../sass/app.scss */
+/* line 236, ../sass/app.scss */
 .grid .cell:last-of-type {
   margin-right: 0;
 }
-/* line 239, ../sass/app.scss */
+/* line 240, ../sass/app.scss */
 .grid .cell img {
   float: none;
 }
-/* line 243, ../sass/app.scss */
+/* line 244, ../sass/app.scss */
 .grid .cell p {
   padding: 0 10px;
 }
 
-/* line 249, ../sass/app.scss */
+/* line 250, ../sass/app.scss */
 .divbutton {
   border: 1px solid #c6c6c6;
   width: 150px;
@@ -235,26 +236,26 @@ body {
   float: left;
 }
 
-/* line 259, ../sass/app.scss */
+/* line 260, ../sass/app.scss */
 #gotop {
   position: fixed;
   display: block;
   bottom: 50px;
   right: 15px;
 }
-/* line 265, ../sass/app.scss */
+/* line 266, ../sass/app.scss */
 #gotop img {
   width: 32px;
 }
 
-/* line 276, ../sass/app.scss */
+/* line 277, ../sass/app.scss */
 .info {
   width: 350px;
   padding: 5px 0 5px 10px;
   display: none;
 }
 
-/* line 283, ../sass/app.scss */
+/* line 284, ../sass/app.scss */
 .success {
   border: 1px solid green;
   display: block;
@@ -262,7 +263,7 @@ body {
   color: #3C763D;
 }
 
-/* line 290, ../sass/app.scss */
+/* line 291, ../sass/app.scss */
 .fail {
   border: 1px solid red;
   display: block;

@@ -64,16 +64,22 @@ $(document).ready(function() {
 		});
 
 
-		
-
-
 		/* Feedback send via jQuery.post() */
 		$('#submit').click(function() {
 			var data = $('#contact-us :input').serializeArray();
 
-			$.post($('#contact-us').attr('action'), data, function(worker) {
-			$('.info').html(worker);
-		});
+			$.ajax({
+				url: "worker.php",
+				type: "POST",
+				async: true,
+				data: data,
+				dataType: "html",
+
+				success: function(html){
+    				$('#contact-us').hide();
+    				$('.info').html('Thank you for feedback!').addClass('success');
+  				}
+			});
 
 			clearInput();
 		});

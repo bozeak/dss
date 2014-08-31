@@ -3,7 +3,7 @@
 
 $server = "localhost";
 $user = "root";
-$password = "";
+$password = "bozeakico";
 $db = "feedback";
 
 $mysqli = new mysqli($server, $user, $password, $db);
@@ -35,8 +35,4 @@ if($error) {
 	echo "Error"; return false;
 } else {
 	$query = mysqli_query($mysqli, "INSERT INTO messages (`email`, `name`, `subject`, `message`, `ip`, `date_add`) VALUES ('$email', '$name', '$subject', '$message', '$ip', NOW())");
-	echo "<script>
-		$('#contact-us').hide();
-		$('.info').html('Thank you for feedback!').addClass(' success');
-		</script>";
 }
